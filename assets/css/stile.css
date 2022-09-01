@@ -49,8 +49,8 @@ header p {padding: 20px 0px;
 }
 
 /* MAIN */
+
 header ul {list-style-type: none ;
-    list-style-image: url();
 
 }
 
@@ -61,20 +61,23 @@ color: white;
 hr {border: none;}
 /* ELEMENTI NEL MAIN - ARTICLE */
 
-article {background-color: white;
+main{background-color: white;
     text-align:left;
-    font-size: 1rem;
     width: 80%;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    height: 80em;
+    height: 135em;
     padding: 30px;
+    font-size: 1rem;
     font-weight: 400;
     border: 1px solid;
     border: none;
     box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.5) ;
-line-height: 1.6;}
+line-height: 1.6;
+
+
+}
 
 article h1 {font-weight: 500;
 font-size: 2rem;
@@ -100,16 +103,99 @@ article ol{margin-left: 25px;
 
 table {margin: 0 auto;
     line-height: 3;
-    border-bottom: 4px solid; 
+    border-bottom: 4px solid #378fb8; 
     text-align: center;
 
 }
 
-tr th {
- border-right: 0.3px solid;    
+table caption {font-weight: 600;
+    font-style: italic;
+
 }
+
+table th {background-color: #378fb8;
+    border-right: 0.3px solid white; 
+}
+
+table tr:nth-child(even) {background-color: rgb(221, 220, 220);
+
+}
+
+.video {margin: 5vh;
+    margin-bottom: 3vh;
+    border-radius: 20px;
+    }
 /* FORM */
+section h2 {font-weight: 500;
+text-align: center;
+font-size: large;
+text-transform: uppercase;
+font-size: 1.6rem;
+line-height: 3;}
+
+section {background-color: rgb(201, 201, 201);
+height: 25vh;
+font-size: 1rem;
+text-align: center;
+
+}
+
+input{
+    border: 0;
+    border-bottom: 1px dashed black;
+height: 25px;
+}
+
+button{
+    background-color: #2f6b87;
+color: white;
+border: 0;
+height: 25px;
+}
+
 
 /* ELEMENTI NELL' ASIDE */
+aside h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    text-transform: uppercase;
+    line-height: 3;
+}
+
+aside div {background-color: lightgray;
+font-size: smaller;
+font-weight: 600;
+height: 9vh;
+padding: 10px;
+margin-top: 10px;
+
+}
+
+aside {display: inline;
+}
+
+.link {color: #378fb8;
+
+}
+
+.data {text-align: end;}
 
 /* FOOTER */
+footer{background-image: linear-gradient(#026172, #0fa19a);
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 3em;
+    padding: 20px;
+    border: 1px solid;
+    border: none;
+    font-size: 0.7rem;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.5) ;
+
+}
+
+.link_ep {color: rgb(218, 5, 218);}
