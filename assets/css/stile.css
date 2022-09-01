@@ -47,10 +47,15 @@ header {
 header p {padding: 20px 0px;
 
 }
+
 /* MAIN */
 header ul {list-style-type: none ;
     list-style-image: url();
 
+}
+
+header a {text-decoration: none;
+color: white;
 }
 
 hr {border: none;}
@@ -93,8 +98,15 @@ article ol{margin-left: 25px;
 }
 /* TABELLE */
 
-table {border: 1px solid white;
+table {margin: 0 auto;
+    line-height: 3;
+    border-bottom: 4px solid; 
+    text-align: center;
 
+}
+
+tr th {
+ border-right: 0.3px solid;    
 }
 /* FORM */
 
